@@ -1,0 +1,24 @@
+{
+  "name": "character-sheet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "cross-env NODE_ENV=development webpack --progress --hide-modules",
+    "watch": "cross-env NODE_ENV=development webpack --watch --progress --hide-modules",
+    "hmr": "cross-env NODE_ENV=development webpack-dev-server --inline --hot",
+    "production": "cross-env NODE_ENV=production webpack --progress --hide-modules"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.15.3",
+    "babel-preset-stage-2": "^6.22.0",
+    "bootstrap": "4.0.0-alpha.6",
+    "laravel-mix": "0.6.0",
+    "vue": "^2.1.10",
+    "vue-router": "^2.2.0",
+    "vuex": "^2.1.1"
+  }
+}
